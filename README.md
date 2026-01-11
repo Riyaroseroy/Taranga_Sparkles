@@ -1,61 +1,58 @@
 # 🧑‍💻 Code of Duty – Hackathon Submission
 
-> **Instructions:**  
-> Please edit this README by filling in the required details.  
-> Do **not** remove section headings.
-
 ---
 
 ## 📌 Team Information
 
-- **Team Name:**  
+- **Team Name:Sparkles**  
 - **Team Members:**  
-  - Member 1 – Register No  
-  - Member 2 – Register No  
-  - Member 3 – Register No  
-  - Member 4 – Register No (if applicable)
+  - Member 1 – Christo Martin  
+  - Member 2 – Riya Rose Roy
+  - Member 3 – Sam Peter
 
 - **Problem Domain:**  
-- **Selected Problem Statement:**  
+- **Selected Problem Statement:**
+  Water and electricity wastage occurs due to lack of awareness and absence of clear usage insights at the consumer level.The issue lies in users not having simple and understandable
+  visibility into how much water and electricity they consume, leading to inefficient and excessive usage of essential resources.
 
 ---
 
 ## 🧩 Problem Description
-
-Briefly describe the problem you are addressing.  
-Explain the background and why this problem is relevant.
-
+Water and electricity are essential resources, yet a significant amount of wastage occurs in households due to a lack of awareness and monitoring. Most users do not have a clear or simple way to understand how much water and electricity they consume on a daily or monthly basis.
+The absence of visual insights, usage trends, and comparisons leads to inefficient consumption and increased utility bills. This problem is highly relevant in today’s world where sustainability, conservation, and responsible usage of resources are critical for environmental protection and long-term availability.
 ---
 
 ## 💡 Proposed Solution
 
-Describe your solution clearly:
-- What is your approach?
-- How does it solve the problem?
-- Key idea behind the solution.
+Water Taranga is a sustainability tracking application designed to provide users with clear, simple, and visual insights into their water and electricity consumption.
+The application allows users to log and track their daily water and electricity usage.
+Data is visualized using graphs and dashboards to make consumption patterns easy to understand.
+Users can compare usage over time and identify wastage or unusual spikes.
+Key Idea:
+Increasing awareness through clear visualization and tracking empowers users to make informed decisions and reduce unnecessary wastage of water and electricity.
 
 ---
 
 ## ⚙️ Technology Stack
-
-List the tools and technologies used:
-- Programming Languages  
-- Frameworks / Libraries  
-- Tools / Platforms  
-
-Example:
-- HTML, CSS, JavaScript  
-- React / Flutter / Node.js  
-- Firebase / APIs (if any)
-
+- HTML, CSS, Javascript
+- Tailwind CSS, Chart.js (for data visualization)
+- Cursor (AI-assisted development),Git & GitHub
 ---
 
 ## 🖥️ Implementation Details
 
-Explain how your project works:
-- Overall workflow
-- Key features implemented
-- Any challenges faced and how you solved them
+
+- Overall Workflow
+User logs into the application.
+User enters daily water and electricity usage values.
+Data is stored and processed on the frontend.
+Usage trends are displayed using interactive graphs and dashboards.
+Key Features Implemented
+User-friendly dashboard
+Water usage tracking
+Electricity usage tracking
+Graphical visualization of consumption
+Simple and clean UI focused on clarity
 
 ---
 

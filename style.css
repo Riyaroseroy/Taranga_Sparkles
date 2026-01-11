@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* Top bar */
+.top-bar {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-profile img {
+  border-radius: 50%;
+}
+
+/* Main */
+main {
+  padding: 20px;
+  margin-bottom: 70px;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.resource-card {
+  flex: 1;
+  padding: 40px;
+  border-radius: 12px;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.resource-card:hover {
+  transform: scale(1.03);
+}
+
+.water {
+  background: #0ea5e9;
+}
+
+.electricity {
+  background: #f59e0b;
+}
+
+.usage-box {
+  background: rgb(126, 0, 176);
+  padding: 20px;
+  border-radius: 12px;
+  min-height: 120px;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.bottom-nav button {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  background: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bottom-nav button.active {
+  background: #5000c7;
+  font-weight: bold;
+}
